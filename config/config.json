@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "fazi69",
+    "database": "blogWebiste",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "fazi69",
+    "database": "blogWebiste_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "fazi69",
+    "database": "blogWebiste_production",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}

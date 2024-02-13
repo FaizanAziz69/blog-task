@@ -1,0 +1,40 @@
+## Features
+- User registration and login
+- Create, read, update, and delete blogs
+- Add and retrieve comments
+- Real-time communication using Socket.IO
+- MySQL database integration with Sequelize
+
+
+## Start the server:
+
+- npm start
+
+## Usage
+Visit http://localhost:5000 to access the home page
+
+## API Endpoints
+Users: /users
+
+POST /register: Register a new user
+POST /login: Log in a user
+GET /allUsers: Get all users
+GET /byId/:id: Get user by ID
+PUT /update/:id: Update user by ID
+DELETE /delete/:id: Delete user by ID
+Blogs: /blogs
+
+POST /post: Create a new blog
+GET /all: Get all blogs
+PUT /update/:blogId: Update blog by ID
+DELETE /delete/:blogId: Delete blog by ID
+Comments: /comments
+
+POST /addComment: Add a new comment to a blog
+GET /all: Get all comments
+
+## Real-Time Communication
+Real-time communication is facilitated through Socket.IO for comments
+
+## Database
+The application uses MySQL as its database, and Sequelize is employed as the ORM (Object-Relational Mapping).
